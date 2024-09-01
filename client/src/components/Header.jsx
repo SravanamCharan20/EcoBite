@@ -17,6 +17,12 @@ export default function Header() {
           <Link to='/about'>
             <li>About</li>
           </Link>
+          <Link to='/avl'>
+            <li>Available Food List</li>
+          </Link>
+          <Link to='/donation'>
+            <li>Donation</li>
+          </Link>
           <Link to='/profile'>
             {currentUser ? (
               <img src={currentUser.profilePicture} alt='profile' className='h-7 w-7 rounded-full object-cover' />
